@@ -1,0 +1,35 @@
+export const defaultTheme = {
+    colors: {
+        "base-background": "#CACACA",
+        "base-background-color": "#FAFAFA",
+        "base-text": "#020617",
+        "base-screen": "#666666",
+        "base-button": "#E6E5E5",
+        "brand-purple": "#8047F8",
+        "brand-input": "#AAFFAA",
+        "brand-button": "#CDCDCD",
+        "brand-base-button": "#00AAF0",
+        "brand-color-button": "#FFFFFF",
+    },
+
+    textSizes: {
+        "title-title-xl": "3rem",
+        "title-title-l": "2rem",
+        "title-title-m": "1.5rem",
+        "title-title-s": "1.2rem",
+        "title-title-xs": "1.125rem",
+        "text-regular-l": "1.25rem",
+        "text-bold-l": "1.25rem",
+        "text-regular-m": "1rem",
+        "text-bold-m": "1rem",
+        "text-regular-s": "0.875rem",
+        "text-bold-s": "0.75rem",
+        "components-tag": "0.625rem",
+        "components-button-g": "0.875rem",
+        "components-button-s": "0.75rem",
+    },
+    fonts: {
+        regular: "'Roboto'",
+        title: "'Baloo 2'",
+    },
+} as const;
